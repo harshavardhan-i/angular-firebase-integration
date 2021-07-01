@@ -1,0 +1,40 @@
+::ng-deep body {
+    margin: 0;
+}
+
+.title {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.response {
+    font-family: 'Merriweather', serif;
+}
+
+.clickableContent {
+    cursor: pointer;
+}
+
+.top-container{
+    background-color: beige;
+    padding: 5rem 0rem;
+}
+
+.middle-container{
+    background-color: aliceblue;
+    padding: 7rem 2rem;
+}
+
+.bottom-container{
+    background-color: antiquewhite;
+    padding: 8.5rem 2rem;
+}
+
+.content {
+    text-align: center;
+}
