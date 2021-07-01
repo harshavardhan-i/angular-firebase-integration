@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
   makePostCall(){
     const payload = {
       superHeroes: ["Captain Marvel", "Hulk"],
-      superVillians: ["Thanos", "Hela"]
+      superVillains: ["Thanos", "Hela"]
     };
     this.firebaseService.firebasePostCall(payload).subscribe(
       (data) => {
@@ -54,6 +54,7 @@ export class AppComponent implements OnInit {
         alert(error);
       }, () =>{
         console.log("Post call successfull.");
+        this.makeGetCall();
       }
     );
   }
